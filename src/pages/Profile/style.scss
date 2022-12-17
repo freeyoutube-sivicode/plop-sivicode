@@ -1,0 +1,6 @@
+@use "sass:map";
+@import "style/theme.scss";
+
+.title {
+    color: map.get($theme-colors, "main-color");
+}
